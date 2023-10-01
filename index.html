@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITC505 - Homework 3</title>
+    <style>
+        @font-face {
+            font-family: 'FunkyFont';
+            src: url('./fonts/PixelifySans-Regular.woff') format('woff'),
+                 url('./fonts/PixelifySans-Regular.woff2') format('woff2');
+        }
+        body {
+            font-family: 'FunkyFont', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>ITC505 - Homework 3</h1>
+    <p>
+        To serve a custom font to a browser, one common method is to host the font on your own server and deliver it using the CSS @font-face rule. This rule allows you to specify the path to the font file and define a custom name for it. By doing so, the font can be rendered correctly, even if the visitor's computer doesn't have the font installed.
+    </p>
+    <p>
+        In our journey to understand the intricacies of web typography, we embarked on an enlightening mission to serve a custom font to our website. We began by selecting an offbeat, yet readable font named "FunkyFont." Rather than relying on third-party font hosting solutions, we decided to self-host it, granting us more control over the font files and ensuring consistent availability. To make the font web-compatible, we converted the original TTF format into WOFF and WOFF2 formats. These formats are specifically designed for the web, providing optimized compression rates and faster load times.
+    </p>
+
+    <p>
+        To incorporate "FunkyFont" into our web page, we utilized the CSS @font-face rule. This rule, nested within a style tag in the head section of our HTML, precisely defines how the font should be fetched and rendered. By specifying the path to the font files, we ensured that the browser knows where to retrieve them from our server. Consequently, any visitor to our page will be greeted with text rendered in "FunkyFont", regardless of whether they have the font installed on their device or not. This technique not only enhances the visual appeal of our webpage but also showcases the flexibility and vast potential of web styling capabilities.
+    </p>
+</body>
+</html>
